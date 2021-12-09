@@ -116,7 +116,7 @@ conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 # cpu only
 # conda install pytorch==1.2.0 torchvision==0.4.0 cpuonly -c pytorch
 python3 setup.py install
-get_datasets.sh
+sh get_datasets.sh
 python3 main.py
 python3 metrics_expts.py
 ```
